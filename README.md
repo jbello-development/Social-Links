@@ -2,7 +2,7 @@
 
 This is a HTML CSS challenge to recreate a social links profile. Below is the design.
 
-[Live Github Pages](https://jbello-development.github.io/Social-Links/)
+<a href="https://jbello-development.github.io/Social-Links/" target="_blank" rel="noopener noreferrer">Live Github Pages</a>
 
 ![Design preview for the Social links profile coding challenge](./preview.jpg)
 
