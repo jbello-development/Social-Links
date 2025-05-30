@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #141414;
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Make body take full viewport height for centering */
+    display: flex; /* Use flexbox on body to center its child (the container) */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    /* The container itself doesn't need specific width/height here
+       because the body is already centering its content.
+       However, if you had other elements, this might be useful. */
+    display: flex; /* Use flexbox to center the box inside it */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Take full width of its parent (body) */
+    height: 100%; /* Take full height of its parent (body) */
+}
+
+.vertical-box {
+    width: 300px; /* Set the width of your box */
+    height: 500px; /* Set the height of your box (making it vertical) */
+    background-color: #f0f0f0; /* A light grey background for the box */
+    border: 1px solid #cccccc; /* A subtle border */
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+    display: flex; /* Use flexbox to center content inside the box later */
+    justify-content: center; /* Center content horizontally inside the box */
+    align-items: center; /* Center content vertically inside the box */
+    padding: 20px; /* Add some internal padding */
+    text-align: center; /* Center text if it's not flex-centered */
+}
